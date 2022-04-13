@@ -9,11 +9,14 @@
   "author": "Fabrice Weinberg <Fabrice@weinberg.me>",
   "license": "MIT",
   "main": "index.js",
+  "types": "index.d.ts",
   "files": [
     "index.js",
+    "index.d.ts",
     "README.md"
   ],
   "dependencies": {
+    "@types/node": "*",
     "cdocparser": "^0.13.0"
   },
   "devDependencies": {
